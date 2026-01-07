@@ -47,7 +47,7 @@ export default function Contact() {
               </div>
             </div>
             <h3 className="font-semibold mb-2">Phone</h3>
-            <p className="text-muted-foreground">(555) 123-4567</p>
+            <p className="text-muted-foreground">(+234) 123-DRJAM</p>
           </Card>
 
           <Card className="p-8 text-center hover:shadow-lg transition-shadow">
@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <p className="text-muted-foreground">hello@solutionsbyjam.com</p>
+            <p className="text-muted-foreground">workplacewithjam@gmail.com</p>
           </Card>
 
           <Card className="p-8 text-center hover:shadow-lg transition-shadow">
@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
             </div>
             <h3 className="font-semibold mb-2">Office</h3>
-            <p className="text-muted-foreground">123 HR Avenue, Business City, BC 12345</p>
+            <p className="text-muted-foreground">Lagos, Nigeria</p>
           </Card>
         </div>
 
