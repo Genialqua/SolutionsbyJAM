@@ -14,13 +14,13 @@ export default function Team() {
       name: "Nkem Emenike",
       role: "Talent Acquisition",
       bio: "Recruitment specialist focused on building high-performing teams.",
-      image: "/Nkem Emenike.jpg",
+      image: "/Nkem Emenike.png",
     },
     {
       name: "Blessing Ofoga",
       role: "Senior HR Consultant",
       bio: "Expert in organizational development and leadership coaching.",
-      image: "/Blessing Ofoga.jpg",
+      image: "/Blessing Ofoga.png",
     },
    
   ]
