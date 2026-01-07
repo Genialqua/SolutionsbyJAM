@@ -5,29 +5,24 @@ import { Card } from "@/components/ui/card"
 export default function Team() {
   const team = [
     {
-      name: "Jessica Martinez",
+      name: "Dr. Jumoke Aleoke-Malachi",
       role: "Chief Executive Officer",
-      bio: "Strategic HR leader with 20+ years driving organizational transformation.",
-      image: "/professional-woman-executive.png",
+      bio: "Strategic HR leader with 15+ years driving organizational transformation.",
+      image: "/Dr JAM.jpg",
     },
     {
-      name: "Ahmed Patel",
-      role: "Head of Talent Acquisition",
+      name: "Nkem Emenike",
+      role: "Talent Acquisition",
       bio: "Recruitment specialist focused on building high-performing teams.",
-      image: "/professional-businessman.png",
+      image: "/Nkem Emenike.jpg",
     },
     {
-      name: "Maria Gonzalez",
+      name: "Blessing Ofoga",
       role: "Senior HR Consultant",
       bio: "Expert in organizational development and leadership coaching.",
-      image: "/professional-woman-smiling.png",
+      image: "/Blessing Ofoga.jpg",
     },
-    {
-      name: "David Chen",
-      role: "Compliance & Legal Specialist",
-      bio: "Ensures all practices align with regulations and legal requirements.",
-      image: "/professional-man-corporate.jpg",
-    },
+   
   ]
 
   return (

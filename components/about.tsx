@@ -20,7 +20,7 @@ export default function About() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Who We Are</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                solutionsbyJAM is a premier HR consulting firm dedicated to transforming workplaces and developing
+                We are WorkplacewithJAM a solutionsbyJAM company and a premier HR consulting firm dedicated to transforming workplaces and developing
                 people. For over 15 years, we've partnered with organizations of all sizes to unlock their human
                 potential and drive sustainable business growth.
               </p>
