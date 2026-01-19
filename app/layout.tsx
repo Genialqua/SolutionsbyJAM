@@ -8,10 +8,10 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "solutionsbyJAM | HR Consulting & Talent Solutions",
+  title: "SolutionsbyJAM | HR Consulting & Talent Solutions",
   description:
     "Transform your workforce with expert HR consulting, talent acquisition, and organizational development services.",
-  generator: "v0.app",
+  generator: "SolutionsbyJAM",
   icons: {
     icon: [
       {
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/icon.png",
+        type: "image/png+xml",
       },
     ],
     apple: "/apple-icon.png",
