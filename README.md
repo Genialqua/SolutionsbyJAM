@@ -5,24 +5,22 @@
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This repository will stay in sync with your deployment.
 
 ## Deployment
 
-Your project is live at:
+This project is live at:
 
 **[https://vercel.com/frederick-aleoke-malachis-projects/v0-solutionsby-jam-website](https://vercel.com/frederick-aleoke-malachis-projects/v0-solutionsby-jam-website)**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/uc0N7LmiZyI](https://v0.app/chat/uc0N7LmiZyI)**
-
 ## How It Works
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
+1. Create and modify this project by cloning this repository to your local machine
+
+2. Run nvm use 18 && npm install
+
+3  Push to the dev branch && create a PR
+
+3. Changes would be automatically pushed to this repository once approved
+
 4. Vercel deploys the latest version from this repository
