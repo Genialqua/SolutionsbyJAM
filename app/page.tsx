@@ -21,6 +21,7 @@ export default function HomeClient() {
         <About />
         <Team />
         <Contact />
+        {/* <Blog /> */}
       </main>
 
       <Footer />

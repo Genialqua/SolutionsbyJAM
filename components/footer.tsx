@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { Mail, Linkedin, Twitter } from "lucide-react"
 
@@ -12,75 +10,94 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">solutionsbyJAM</h3>
             <p className="text-primary-foreground/80 text-sm">
-              Transforming workplaces and developing people for sustainable business growth.
+              Transforming workplaces and developing people for sustainable
+              business growth.
             </p>
           </div>
 
           {/* Services */}
-          <div>
+          <nav aria-label="Services">
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="/services/talent-acquisition" className="hover:text-primary-foreground">
                   Talent Acquisition
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="/services/hr-consulting" className="hover:text-primary-foreground">
                   HR Consulting
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="/services/performance-management" className="hover:text-primary-foreground">
                   Performance Management
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="/services/leadership-development" className="hover:text-primary-foreground">
                   Leadership Development
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Company */}
-          <div>
+          <nav aria-label="Company">
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="#about" className="hover:text-primary-foreground">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="#team" className="hover:text-primary-foreground">
                   Team
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="#contact" className="hover:text-primary-foreground">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary-foreground transition-colors">
+                <Link href="#blog" className="hover:text-primary-foreground">
                   Blog
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Connect */}
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-primary-foreground/80 transition-colors">
+              <a
+                href="https://www.linkedin.com/company/workplacewithjam/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="hover:text-primary-foreground/80"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="hover:text-primary-foreground/80 transition-colors">
+
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+                className="hover:text-primary-foreground/80"
+              >
                 <Twitter size={20} />
               </a>
-              <a href="#" className="hover:text-primary-foreground/80 transition-colors">
+
+              <a
+                href="mailto:workplacewithjam@gmail.com"
+                aria-label="Email"
+                className="hover:text-primary-foreground/80"
+              >
                 <Mail size={20} />
               </a>
             </div>
@@ -89,7 +106,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-primary-foreground/20 pt-8 text-sm text-primary-foreground/80 text-center">
-          <p>&copy; 2026 solutionsbyJAM. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} solutionsbyJAM. All rights reserved.</p>
         </div>
       </div>
     </footer>
