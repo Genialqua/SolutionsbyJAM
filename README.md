@@ -21,6 +21,6 @@ This project is live at:
 
 3  Push to the dev branch && create a PR
 
-3. Changes would be automatically pushed to this repository once approved
+4. Changes would be automatically pushed to this repository once approved
 
-4. Vercel deploys the latest version from this repository
+5. Vercel deploys the latest version from this repository
