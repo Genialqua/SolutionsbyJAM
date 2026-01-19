@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, Linkedin, Twitter } from "lucide-react"
+import { Mail, Linkedin, Twitter, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -84,13 +84,23 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://twitter.com/"
+                href="https://x.com/workplacewitJAM"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
                 className="hover:text-primary-foreground/80"
               >
                 <Twitter size={20} />
+              </a>
+
+               <a
+                href="https://www.instagram.com/workplacewithjam?igsh=MWhvaXQ1ZDFmbTN0bA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="hover:text-primary-foreground/80"
+              >
+                <Instagram size={20} />
               </a>
 
               <a
