@@ -17,7 +17,7 @@ This project is live at:
 
 1. Create and modify this project by cloning this repository to your local machine
 
-2. Run nvm use 18 && npm install
+2. Run        nvm use 20     =>      npm install   =>      npm run dev
 
 3  Push to the dev branch && create a PR
 
