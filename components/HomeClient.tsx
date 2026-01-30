@@ -17,7 +17,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header>
-        <Navigation />
+        {/* <Navigation /> */}
       </header>
 
       <main>

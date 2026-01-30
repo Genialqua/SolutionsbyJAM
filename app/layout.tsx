@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Navigation from "@/components/navigation"
 import "./globals.css"
 
 const geist = Geist({
@@ -16,35 +17,27 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://solutionsbyjam.com"),
-
   title: {
     default: "SolutionsbyJAM | HR Consulting & Talent Solutions",
     template: "%s | SolutionsbyJAM",
   },
-
   description:
     "SolutionsbyJAM provides expert HR consulting, talent acquisition, workforce strategy, and organizational development to help businesses scale effectively.",
-
   applicationName: "SolutionsbyJAM",
   generator: "Next.js",
-
   keywords: [
     "HR consulting",
     "talent acquisition",
     "human resources",
     "workforce strategy",
     "organizational development",
+    "organizational culture",
     "HR solutions",
   ],
-
   authors: [{ name: "SolutionsbyJAM" }],
   creator: "SolutionsbyJAM",
   publisher: "SolutionsbyJAM",
-
-  alternates: {
-    canonical: "/",
-  },
-
+  alternates: { canonical: "/" },
   robots: {
     index: true,
     follow: true,
@@ -56,7 +49,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -74,7 +66,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-
   twitter: {
     card: "summary_large_image",
     title: "SolutionsbyJAM | HR Consulting & Talent Solutions",
@@ -82,21 +73,11 @@ export const metadata: Metadata = {
       "Expert HR consulting, talent acquisition, and workforce solutions for growing businesses.",
     images: ["/Dr JAM.png"],
   },
-
   icons: {
     icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.png",
-        type: "image/png",
-      },
+      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/icon.png", type: "image/png" },
     ],
     apple: "/apple-icon.png",
   },
@@ -104,10 +85,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en" className={`${geist.className} ${geistMono.className}`}>
       <body className="antialiased">
+        <Navigation />
         {children}
         <Analytics />
       </body>
