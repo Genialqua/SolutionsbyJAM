@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: "SolutionsbyJAM | HR Consulting & Talent Solutions",
     description:
       "Expert HR consulting, talent acquisition, and workforce solutions for growing businesses.",
-    images: ["/og-image.png"],
+    images: ["/Dr JAM.png"],
   },
 
   icons: {

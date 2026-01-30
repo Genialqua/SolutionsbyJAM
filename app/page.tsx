@@ -1,30 +1,9 @@
-"use client"
+import HomeClient from '@/components/HomeClient'
+import { client } from '@/lib/sanity'
+import { postsQuery } from '@/lib/queries'
 
-import Navigation from "@/components/navigation"
-import Hero from "@/components/hero"
-import Services from "@/components/services"
-import About from "@/components/about"
-import Team from "@/components/team"
-import Contact from "@/components/contact"
-import Footer from "@/components/footer"
+export default async function HomePage() {
+  const posts = await client.fetch(postsQuery)
 
-export default function HomeClient() {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <header>
-        <Navigation />
-      </header>
-
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <Team />
-        <Contact />
-        {/* <Blog /> */}
-      </main>
-
-      <Footer />
-    </div>
-  )
+  return <HomeClient posts={posts} />
 }
