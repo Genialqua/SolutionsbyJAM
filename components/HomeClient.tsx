@@ -25,11 +25,11 @@ export default function HomeClient({ posts }: HomeClientProps) {
         <Services />
         <About />
         <Team />
-        <BlogSection posts={posts} /> {/* ✅ FIXED */}
+        <BlogSection posts={posts} /> 
         <Contact />
       </main>
 
-      <Footer />
+     {/* <Footer /> */}
     </div>
   )
 }
