@@ -164,7 +164,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* ✅ Success Modal */}
+      {/* Success Modal */}
       {showModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
           <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg max-w-sm w-full relative text-center">

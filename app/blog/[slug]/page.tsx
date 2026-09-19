@@ -31,7 +31,7 @@ type PageProps = {
 }
 
 export default async function BlogPostPage({ params }: PageProps) {
-  // ✅ Unwrap params (Next.js 16 requirement)
+  //Unwrap params (Next.js 16 requirement)
   const { slug } = await params
 
   if (!slug) return <div>Missing slug</div>

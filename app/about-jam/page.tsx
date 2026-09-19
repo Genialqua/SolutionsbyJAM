@@ -23,7 +23,7 @@ export default function AboutJAMPage() {
         {/* Image */}
         <div className="w-full">
           <Image
-            src="/Dr JAM.jpg" // ⬅️ replace with actual image
+            src="/Dr JAM.jpg" 
             alt="Dr. Jumoke Aleoke-Malachi"
             width={600}
             height={750}

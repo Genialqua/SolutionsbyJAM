@@ -16,9 +16,7 @@ type HomeClientProps = {
 export default function HomeClient({ posts }: HomeClientProps) {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <header>
-        {/* <Navigation /> */}
-      </header>
+      
 
       <main>
         <Hero />
@@ -29,7 +27,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
         <Contact />
       </main>
 
-     {/* <Footer /> */}
+     
     </div>
   )
 }

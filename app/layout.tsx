@@ -112,7 +112,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.className} ${geistMono.className}`}>
       <body className="antialiased">
-        {/* 🔹 Structured Data: Organization */}
+        {/* Structured Data: Organization */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -129,7 +129,7 @@ export default function RootLayout({
               ],
               founder: {
                 "@type": "Person",
-                name: "Dr. Jumoke Aleoke-Malachi",
+                name: "Dr.Jumoke Aleoke-Malachi",
                 jobTitle: "HR Leader & Career Coach",
               },
             }),
